@@ -1,0 +1,6 @@
+{
+  "^testmetrics(\\.(\\w+(?:-\\w+)*)){6}" : ".organization_id.cluster_name.host_name.application_name.measurement.field",
+  "^testmetrics(\\.(\\w+(?:-\\w+)*)){5}" : ".organization_id.cluster_name.host_name.measurement.field",
+  "^statsd(\\.(\\w+(?:-\\w+)*)){6}" : ".organization_id.cluster_name.host_name.application_name.measurement.field",
+  "^statsd(\\.(\\w+(?:-\\w+)*)){5}" : ".organization_id.cluster_name.host_name.measurement.field"
+}
